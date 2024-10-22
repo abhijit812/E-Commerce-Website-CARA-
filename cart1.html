@@ -110,14 +110,14 @@ updateCartTotal();
               <input type="number" id="quantity" value="1" min="1" max="100">
               <label for="price">Price per Unit:</label>
               <input type="number" id="price" value="78" readonly>
-              <button type="submit">Calculate Total Price</button>
+              <button type="submit" class="normal">Calculate SubTotal Price</button>
             </form>
             <p id="total-price"></p>
           </section>
         </td>
           <!-- <td>$78.00</td> -->
         </tr>
-        <tr>
+        <!-- <tr>
           <td>
             <div class="cart-info">
               <img src="img/products/f3.jpg" alt="Tshirt" />
@@ -140,32 +140,36 @@ updateCartTotal();
                 <p>Orange Printed Tshirt</p>
                 <small>Price: $78.00</small>
                 <br />
-                <!-- <a href="#" class="remove" onclick="removeItem(this)">Remove</a> -->
-              </div>
+                <a href="#" class="remove" onclick="removeItem(this)">Remove</a> -->
+              <!-- </div>
             </div>
           </td>
           <td><input type="number" value="1" /></td>
           <td>$78.00</td>
         </tr>
-      </table>
+      </table>  -->
 
       <div class="total-price">
         <table>
           <tr>
-            <td>Subtotal</td>
-            <td>$234.00</td>
+            <td><p id="Subtotal"></p></td>
+            <!-- <td>$78.00</td> -->
           </tr>
           <tr>
-            <td>Tax</td>
-            <td>$35.00</td>
+            <td><p id="Tax"></p></td>
+            <!-- <td>$35.00</td> -->
           </tr>
           <tr>
-            <td>Total</td>
-            <td>$269.00</td>
+            <td><a href="shop.html"><button class="normal">Add more items</button></td></a>
+            <td><a href="finalcart.html"><button class="normal">Checkout</button></td></a>
           </tr>
         </table>
       </div>
     </div>
+
+    
+
+    
 <!-- Product Price Calculator HTML Structure -->
 <!-- <!DOCTYPE html>
 <html>
@@ -174,8 +178,8 @@ updateCartTotal();
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<!-- Product Price Calculator Section -->
-	<section class="calculator">
+	 Product Price Calculator Section -->
+	<!-- <section class="calculator">
 		<h1>Product Price Calculator</h1>
 		<form id="calculator-form">
 			<label for="quantity">Enter Quantity:</label>
@@ -185,7 +189,7 @@ updateCartTotal();
 			<button type="submit">Calculate Total Price</button>
 		</form>
 		<p id="total-price"></p>
-	</section>
+	</section> -->
 
 	<!-- Footer Section -->
 	<footer>
